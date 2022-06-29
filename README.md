@@ -1,8 +1,51 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello!
 
-## Available Scripts
+In this code assignment we would like you build an app that help the user find a university in a given country.
+
+In this assignment we have some requirements we would like you to follow. If you would like to flex with some more features outside of the ones we have scoped here - we are happy to see those as well!
+
+## The Project
+
+Below we have scoped the requirements for the application. 
+
+The app should consist of two pages:
+
+🏡 **Home page** - here the user can fill out a form and submit it. The form should have two fields:
+* One freetext field where the user can type his/hers name.
+* One dropdown where the user can pick a city from a dropdown. The options should be France, United Kingdom, Italy and Ireland.
+It should not be possible to submit the form without filling in both fields. On submit the user should be redirected to the search results page.
+
+🔍 **Search Results page** - when the form on the Homepage is submitted the user should get redirected to this page. 
+This page should show: 
+* Their own name that they submitted in the form (for a more personalised experience) 
+* The names of the universities for the given country (the country they picked in the dropdown on the form).
+
+Some additional requirements for this page (nice-to-have): 
+* The universities names presented in alphabetical order.
+* A button where the user can navigate to the Home page.
+
+### Stack and pre-requisites
+
+To do this you will use the public API **University Domains and Names Data List & API** from Hipo. <br />
+Check out [section 2 - Using the Hosted API](https://github.com/Hipo/university-domains-list#2---using-the-hosted-api) for details.
+
+The application should be written in React, using functional components and React Hooks. 
+
+We made this assignment to give you the opportunity to show us as much of your expertise as possible. You are free to add implementations and features outside of the scoped requirements! However we respect that everyone has different amount of time to put into something like this and we will evaluate accordingly. 
+
+You are 100% free to use external libraries or packages for this assignment! 
+
+## Step-by-step guide
+
+* Clone this repository
+* Setup a new private repository with the source code
+* Code
+* Push your solution to a new branch
+* Create a Pull Request when your ready and reach out to us for setting up the interview!
+
+## How to run the application
 
 In the project directory, you can run:
 
@@ -19,52 +62,15 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## The Interview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You bring in your solution and get to walk it through with us. We use this as a starting point to have discussion. We want to understand your reasoning and depth of knowledge. As a rule the discussion is more important than the actual code. Also no one is an expert at everything so this also helps us understand your strengths as well as areas of improvement across the stack.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Questions? 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to reach out to us at any time!
 
-### `npm run eject`
+Good luck! 🎉
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
