@@ -43,7 +43,9 @@ You are 100% free to use external libraries or packages for this assignment!
 * Setup a new private repository with the source code
 * Code
 * Push your solution to a new branch
-* Create a Pull Request when your ready and reach out to us for setting up the interview!
+* Create a Pull Request in your private repository and invite us to the repository on the interview
+
+If you didn't have time to finish all the code you wanted to prepare for the interview, it is fine. You can ellaborate on those parts together with us on the call instead.
 
 ## How to run the application
 
